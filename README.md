@@ -1,8 +1,5 @@
 # Wedding Landing Page - Khoa Thoai Menikah
 
-![Thumbnail](/image/thumbnail-web-sherly-daeng-menikah.png)
-
-
 # Section/Feature
 - Main Info
 - Countdown to D-Day
