@@ -56,6 +56,10 @@ html {
   color: whitesmoke;
 }
 
+.subtitle {
+  color: #bf7877;
+}
+
 .hero .subtitle {
   padding: 35px;
   color: whitesmoke;
@@ -65,7 +69,7 @@ html {
 .hero .tempatwaktu {
   padding-top: 35px;
   font-size: 1.3rem;
-  
+
 }
 
 .hero .hero-foot {
@@ -124,7 +128,7 @@ html {
 
 .main-content {
   padding-top: 2rem;
-  color: #000; 
+  color: #000;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -174,7 +178,7 @@ html {
 
 .main-content .section-cashbac {
   background-color: rgb(238, 250, 253);
-  padding: 80px 40px; 
+  padding: 80px 40px;
 }
 
 @media (max-width: 599px) {
@@ -323,11 +327,13 @@ vertical-align: middle;
 
 .bodytext {
   font-size: 18px;
+  color: #bf7877;
 }
 
 .waktu {
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
+  color: #bf7877;
 }
 
 .tanggal-angka {
@@ -340,8 +346,8 @@ vertical-align: middle;
 .tempat {
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
-  font-size: ;
   margin-bottom: 50px;
+  color: #bf7877;
 }
 
 
@@ -357,7 +363,7 @@ vertical-align: middle;
   text-align: center;
   vertical-align: middle;
   background: #c28285;
-  color: whitesmoke;    
+  color: whitesmoke;
 }
 
 .footer p {
@@ -482,7 +488,7 @@ body.preloader-site {
   height: 65px;
   color: white;
   font-size: 1.2rem;
-  border-radius: 10px;  
+  border-radius: 10px;
   border-left: 1px solid #6cc751;
   border-right: 1px solid #6cc751;
   border-top: 1px solid #6cc751;
@@ -571,24 +577,24 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/trips/IMG_20220211_124020.jpeg");
+  background-size: contain;
+  background-position: left;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg");
-  background-size: cover;
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/trips/IMG_20220122_081240.jpeg");
+  background-size: contain;
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/trips/IMG_9291.jpeg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -596,7 +602,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/trips/IMG_1593.jpeg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -604,16 +610,16 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-red-car.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/trips/IMG_8874.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
 
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-engagement-ami.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/trips/DSC_6222.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -630,10 +636,14 @@ body.preloader-site {
   color: white;
 }
 
+.bottom {
+    position: fixed;
+    bottom: 0;
+}
+
 
 .subtitle-foto {
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
   font-size: 14pt;
   font-weight: 600;
   margin-top: 15px;
