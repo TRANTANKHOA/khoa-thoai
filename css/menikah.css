@@ -327,6 +327,13 @@ display: inline-block;
 vertical-align: middle;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .bodytext {
   font-size: 18px;
   color: #bf7877;
